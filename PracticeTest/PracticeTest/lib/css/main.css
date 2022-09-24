@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1785ce;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+main{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.tab-content{
+    width: 100%;
+}
+#form-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav{
+    display: flex;
+    gap: 8px;
+}
+.nav li a{
+    background-color: #4b4d4e;
+}
+.nav li:hover a{
+    color: #4b4d4e;
+}
+.nav a{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 32px;
+}
+
+form{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    align-items:stretch;
+}
+.radio-box{
+    color: #4b4d4e;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+textarea{
+    font-size: 14px;
+}
+.btn{
+    background-color: #1785ce;
+    color: #ffffff;
+}
+
